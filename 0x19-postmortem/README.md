@@ -8,6 +8,7 @@ Timeline:
 11:05 AM: Our team began investigating the issue and determined that the outage was caused by a failure of our primary database server.
 11:30 AM: We were able to restore the primary database server and the web service began to function normally again.
 1:00 PM: The web service was fully operational and all users were able to access it again.
+
 Root Cause:
 
 The root cause of the outage was a failure of our primary database server. The failure was caused by a hardware malfunction that resulted in the server becoming unresponsive.
