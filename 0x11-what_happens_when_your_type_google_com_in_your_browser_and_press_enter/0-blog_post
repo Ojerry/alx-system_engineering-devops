@@ -1,0 +1,15 @@
+When you type "google.com" into your browser and press Enter, the following steps occur:
+
+The browser checks its cache to see if it has recently visited the website and if the cached version is still valid. If so, it will display the cached version of the webpage without sending a request to the server.
+
+If the website is not in the cache, or the cached version is out of date, the browser sends a request to the Domain Name System (DNS) to resolve the domain name "google.com" to an IP address. This is done by first checking the browser's local DNS cache, then the operating system's DNS cache, and finally querying a DNS recursive resolver.
+
+Once the IP address is obtained, the browser sends a request, typically an HTTP or HTTPS request, to the server at that IP address for the website's content. The request contains information such as the browser and operating system being used, as well as any cookies associated with the website.
+
+The server receives the request and processes it, typically by running a web application that generates the webpage's content. The server then sends a response, typically an HTTP or HTTPS response, back to the browser containing the HTML, CSS, and JavaScript files that make up the website.
+
+The browser receives the response and renders the HTML, CSS, and JavaScript into a webpage that is displayed to the user. It also stores the response in its cache for future use.
+
+The browser also requests any other resources, like images, videos, and other linked resources. These resources are also stored in cache, to make the website load faster in future visits.
+
+Finally, the browser continues to monitor the network traffic between the server and the browser to ensure that all resources are loaded successfully, and that the website is fully functional and responsive.
